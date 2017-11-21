@@ -1,0 +1,107 @@
+:root{
+	--alto: 650px;
+	--ancho: calc(var(--alto) * 1.8);
+}
+
+
+#contenedor{
+	position: relative;
+	width: var(--ancho);
+	height: var(--alto);
+}
+
+#contenedor img{
+	height: 100%;
+}
+
+
+.boton{ 
+	position: absolute;
+	opacity: 0.5;
+	height: calc(var(--alto) * 0.05);		
+	width: calc(var(--ancho) * 0.05);
+	border-radius: 5px;
+	padding: 0;
+	border: 0;
+	background-color: blue;
+	font-size: calc(var(--alto) * 0.03);
+}
+
+#btn01{
+	left: 4.3%;
+	top: 69%;
+}
+
+#btn02{
+	left: 10%;
+	top: 69%;
+}
+
+#btn03{
+	left: 23.5%;
+	top: 68.5%;
+}
+
+#btn04{
+	left: 23.5%;
+	top: 74%;
+}
+
+#btn01, #btn02, #btn03, #btn04{
+	color: #f6e93b;
+
+}
+
+
+
+#btn05{
+	left: 40%;
+}
+
+#btn06{
+	left: 47%;
+}
+#btn07{
+	left: 53.7%;
+}
+
+#btn08{
+	left: 60.2%;
+}
+
+#btn05, #btn06, #btn07, #btn08{
+	background-color: #f6e93b;
+	color: black;
+	top: 64%;
+}
+
+#btn09{
+	right: 22%;
+	top: 69.9%;
+}
+
+
+#btn10{
+	right: 14.7%;
+	top: 69.9%;
+}
+
+#btn11{
+	right: 22%;
+	top: 76%;
+}
+
+#btn12{
+	right: 14.7%;
+	top: 76%;
+}
+
+#btn09, #btn10, #btn11, #btn12{
+	background-color: white;
+	color: blue;
+}
+
+
+
+
+
